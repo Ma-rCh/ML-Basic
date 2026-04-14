@@ -11,7 +11,7 @@ class Car(Vehicle):
         super().__init__(weight, fuel)
         #self.engine = engine
 
-    def set_engine(self, engine):
+    def set_engine(self, engine: Engine):
         self.engine = engine
     #@property
     def start(self):
