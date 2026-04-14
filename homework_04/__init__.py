@@ -1,6 +1,8 @@
-from . import media,storage
+from . import media,storage,files_types,exceptions
 
 __all__ = [
     "media",
-    "storage"
+    "storage",
+    "exceptions",
+    "files_types"
 ]
