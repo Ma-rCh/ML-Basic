@@ -2,7 +2,7 @@
 Создайте класс `Plane`, наследник `Vehicle`
 """
 from base import Vehicle
-from exceptions import CargoOverload
+from homework_05.exceptions import CargoOverload
 class Plane(Vehicle):
     def __init__(self, weight, fuel, max_cargo):
         super().__init__(weight, fuel)

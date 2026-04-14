@@ -2,7 +2,7 @@
 Создайте класс `Car`, наследник `Vehicle`
 """
 
-from exceptions import LowFuelError,NotEnoughFuel
+from homework_05.exceptions import LowFuelError,NotEnoughFuel
 from base import Vehicle
 from engine import Engine
 
@@ -30,7 +30,7 @@ class Car(Vehicle):
                 self._fuel -= distance * self._fuel_consumption
                 print(f"Поехали! \nОстаток топлива к финишу:  {self._fuel} литров.")
 
-
+"""
 e1 = Engine(50)
 c1 = Car(10,100)
 c1.set_engine(e1)
@@ -42,3 +42,4 @@ try:
     c1.move(10)
 except LowFuelError as e:
     print(f"Ошибка : {e}")
+"""
