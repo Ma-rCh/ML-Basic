@@ -15,6 +15,6 @@ class NotEnoughFuel(LowFuelError):
    pass
 
 class CargoOverload(Exception):
-    def __init__(self, messege="Перегруз"):
+    def __init__(self, messege):
         self.messege = messege
         super().__init__(self.messege)
